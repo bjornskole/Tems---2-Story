@@ -42,52 +42,76 @@ function updateView() {
 
     <div class="page" id="text">
       <div
-        id="piece1"
+        
         class="s1"
-        ondrop="drop(event)"
-        ondragover="allowDrop(event)"
-      >If </div>
+       
+      >If</div>
+      <div
+      id="piece1"
+      class="s2"
+      ondrop="drop(event)"
+      ondragover="allowDrop(event)"
+    ></div>
+      <div
+        
+        class="s3"
+      >keep</div>
       <div
         id="piece2"
-        class="s2"
-        ondrop="drop(event)"
-        ondragover="allowDrop(event)"
-      >keep </div>
-      <div
-        id="piece3"
-        class="s3"
-        ondrop="drop(event)"
-        ondragover="allowDrop(event)"
-      >the </div>
-      <div
-        id="piece4"
         class="s4"
         ondrop="drop(event)"
         ondragover="allowDrop(event)"
-      >sad </div>
+      ></div>
       <div
-        id="piece5"
+        
         class="s5"
-        ondrop="drop(event)"
-        ondragover="allowDrop(event)"
-      >You </div>
+      >the</div>
       <div
-        id="piece6"
+        id="piece3"
         class="s6"
         ondrop="drop(event)"
         ondragover="allowDrop(event)"
-      >keep </div>
+      ></div>
       <div
-        id="piece7"
+        
         class="s7"
-        ondrop="drop(event)"
-        ondragover="allowDrop(event)"
-      >the same </div>
+      >sad</div>
       <div
-        id="piece8"
+        id="piece4"
         class="s8"
         ondrop="drop(event)"
         ondragover="allowDrop(event)"
+      ></div>
+      <div
+        class="s9"
+      >You</div>
+      <div
+        id="piece5"
+        class="s10"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      ></div>
+      <div
+        
+        class="s11"
+      >keep</div>
+      <div
+        id="piece6"
+        class="s12"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      ></div>
+      <div
+        class="s13"
+      >the same</div>
+      <div
+        id="piece7"
+        class="s14"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      ></div>
+      <div
+        class="s15"
       >life </div>
       
     </div>

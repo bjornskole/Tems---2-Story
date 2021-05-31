@@ -8,12 +8,12 @@ div.page {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 140px 250px 200px 200px 200px 230px 280px 60px;
-  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
   grid-template-areas:
-    "header header header header header header header header"
-    "image image image image image image image image"
-    "s1 s2 s3 s4 s5 s6 s7 s8";
+    "header header header header header header header header header header header header header header header"
+    "image image image image image image image image image image image image image image image"
+    "s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15";
 }
 
 .info {
@@ -55,10 +55,10 @@ div.page {
   grid-area: image;
 }
 
-img {
+/* img {
   height: 200px;
   width: 200px;
-}
+} */
 
 #piece1,
 #piece2,
@@ -70,41 +70,105 @@ img {
 #piece8 {
   font-size: 50px;
   color: rgb(3, 3, 3);
+  /* margin: 10px; */
 
   /* display: inline-block; */
 }
 
 .s1 {
+  padding-right: 10px;
   grid-area: s1;
+  font-size: 50px;
   text-align: center;
 }
 
 .s2 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  font-size: 50px;
   grid-area: s2;
   text-align: center;
 }
 
 .s3 {
+  padding-right: 10px;
+  font-size: 50px;
   grid-area: s3;
   text-align: center;
 }
 
 .s4 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  font-size: 50px;
   grid-area: s4;
 }
 .s5 {
+  padding-right: 10px;
   grid-area: s5;
+  font-size: 50px;
 }
 .s6 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
   grid-area: s6;
+  font-size: 50px;
 }
 
 .s7 {
+  padding-right: 10px;
+  font-size: 50px;
   grid-area: s7;
 }
 .s8 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  font-size: 50px;
   grid-area: s8;
 }
 .s9 {
+  padding-right: 10px;
   grid-area: s9;
+  font-size: 50px;
+}
+.s10 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  grid-area: s10;
+  font-size: 50px;
+}
+.s11 {
+  padding-right: 10px;
+  font-size: 50px;
+  grid-area: s11;
+}
+
+.s12 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  font-size: 50px;
+  grid-area: s12;
+}
+.s13 {
+  padding-right: 10px;
+  font-size: 50px;
+  grid-area: s13;
+}
+.s14 {
+  padding-right: 10px;
+  min-height: 50px;
+  min-width: 80px;
+  font-size: 50px;
+  grid-area: s14;
+}
+.s15 {
+  padding-right: 10px;
+  font-size: 50px;
+  grid-area: s15;
 }
