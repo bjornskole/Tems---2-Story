@@ -109,7 +109,6 @@ function drop(ev) {
   ev.preventDefault();
   let data = ev.dataTransfer.getData("text");
   ev.target.id == data
-    ? ev.target.appendChild(document.getElementById(data)) +
-      console.log(document.getElementById("text"))
+    ? ev.target.appendChild(document.getElementById(data))
     : null;
 }
