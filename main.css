@@ -8,7 +8,7 @@ div.page {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 220px 400px 300px 320px 300px 380px 430px 120px;
+  grid-template-columns: 140px 250px 200px 200px 200px 230px 280px 60px;
   grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
   grid-template-areas:
     "header header header header header header header header"
@@ -39,12 +39,13 @@ div.page {
   /* border: 1px dashed gray; */
   display: inline-block;
   margin: 0;
+  text-align: center;
 }
 
 #text {
   /* width: 614px;
   height: 614px; */
-
+  text-align: center;
   margin: 30px;
 }
 
@@ -67,7 +68,7 @@ img {
 #piece6,
 #piece7,
 #piece8 {
-  font-size: 80px;
+  font-size: 50px;
   color: rgb(3, 3, 3);
 
   /* display: inline-block; */
@@ -75,14 +76,17 @@ img {
 
 .s1 {
   grid-area: s1;
+  text-align: center;
 }
 
 .s2 {
   grid-area: s2;
+  text-align: center;
 }
 
 .s3 {
   grid-area: s3;
+  text-align: center;
 }
 
 .s4 {
